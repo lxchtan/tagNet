@@ -20,6 +20,25 @@ The evaluation result on test set is shown as bellow.
 
 ## Train and eval
 
+Get dataset and put it into folder `data`. 
+
+```shell
+data
+├── map
+│   ├── audios
+│   ├── development.json
+│   ├── lexicon
+│   ├── ontology.json
+│   ├── test_unlabelled.json
+│   └── train.json
+├── music
+│		├──....
+├── video
+│		├──....
+└── weather
+		├──....
+```
+
 Just run the shell scripts
 
 ```shell
